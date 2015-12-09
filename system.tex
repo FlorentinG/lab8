@@ -17,7 +17,7 @@ $$A=[a_{ij}]$$
 $$a_{ij} = \frac{1}{h}K(hj,y_i)$$
 $$\text{for }i=1,...,36 \text{ and }j=1,...59$$
 
-The next thing to do is get the data vector $f=(f(y_1),...,f(y_{36}))^T$. In "real" applications, $f$ is the measured data. But here, we will generate it from the given function $p$ (and sometimes add some perturbations).
+The next thing to do is get the data vector $f=(f(y_1),...,f(y_{36}))^T$. In "real" applications, $f$ is the measured data. But here, we will generate it from the given function $p$ (and sometimes add some perturbations). In order to do this, we suppose that the $f(y)$ is a good modeling of our measuring device.
 
 \begin{align*}
 f_i&=f(y_i)=\int_0^{6}K(x,y_i)p(x)dx\\
