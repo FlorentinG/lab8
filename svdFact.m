@@ -13,7 +13,7 @@ for i = 1:36
         A(i,j) = K(h*j,y(i),beta);
     end
 end
-A = h*A;spy(A);
+A = h*A;%spy(A);
 
 %SVD Decomposition
 [U,S,V] = svd(A);
