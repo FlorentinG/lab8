@@ -1,1 +1,30 @@
-fzcesdw
+The first first to do is to build the linear system to be solved. The system will come from the discretization of an integral. 
+
+Let us define the unknowns. Because we are working on the interval $[0,6]$ with $N=60$ intervals, with a constant stepsize $h=\frac{6}{N}=0.1$, we have that the unknows are an approximation of the function $p$ at different point, i.e. : 
+$$p_i \approx p(x=ih)$$
+
+That gives 61 unknows ($p_0,p_1,...,p_N,p_{N+1}$). But as stated in the homework, the function $p(x)$ is zero outside $a<x<b$ so we can conclude that $p(a)=p(0)=0$ and $p(b)=p(6)=0$. And therefore, $p_0=p_{N+1}=0$. That leaves 59 unknowns as predicted ($p_1,p_2,...,p_N$).
+
+We secondly have to build the matrix A. It comes form the discretization of the integral using the trapezoidal rule. We have data from 36 measurements, so 36 equations and each is given by (where $K$ is the kernel function given) : 
+\begin{align*}
+\int_0^{6}K(x,y_i)p(x)dx &=\sum_{j=0}^{59} \int^{h(j+1)}_{hj} K(x,y_i)p(x)dx\\
+&\approx \sum_{j=0}^{59} \frac{1}{2h}(K(hj,y_i)p_j+K(h(j+1),y_i)p_{j+1})\\
+&=\frac{1}{h}\sum_{j=1}^{59} K(hj,y_i)p_j
+\end{align*}
+
+The last equality is found because $p_0=p_{N+1}=0$. So the matrix $A$ can be defined by : 
+$$A=[a_{ij}]$$
+$$a_{ij} = \frac{1}{h}K(hj,y_i)$$
+$$\text{for }i=1,...,36 \text{ and }j=1,...59$$
+
+The next thing to do is get the data vector $f=(f(y_1),...,f(y_{36}))^T$. In "real" applications, $f$ is the measured data. But here, we will generate it from the given function $p$ (and sometimes add some perturbations).
+
+\begin{align*}
+f_i&=f(y_i)=\int_0^{6}K(x,y_i)p(x)dx\\
+&=\int_0^{6}K(x,y_i)(0.8cos(\pi\frac{x}{6})-0.4cos(\pi\frac{x}{2})+1)dx
+\end{align*}
+
+This integral could be performed analytically but we used the Matlab built-in function $integral$ instead (which is practically the same since the absolute tolerance of this function is $10^{-10}$). The subfunction $data$ (available at the end of this report) performs this integration and returns a vector containing the data $f$.
+
+This yields the following system to be solved in the next section : 
+$$Ap=f$$
