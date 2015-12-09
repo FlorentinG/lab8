@@ -1,18 +1,16 @@
-This section focuses on solving the underdetermined system derived in the previous section. To do this, SVD factorization will be used. 
-
-We know that our system is composed by 36 equations for 59 unknowns. It is thus indeed underdetermined. 
-
-Let us recap the strategy used to solve the system. We start with $$Ap=f.$$
-We get the decomposition $$A = USV^{T}.$$
+This section focuses on solving the underdetermined system derived in the previous section. To do this, SVD factorization will be used. \newline
+We know that our system is composed of 36 equations for 59 unknowns. It is thus indeed underdetermined. Let us recap the strategy used to solve the system. We start with $$Ap=f.$$
+We get the decomposition $$A = USV^{T}$$
+with the properties from the course.
 This yields
-\begin{eqnarray}
+\begin{eqnarray*}
 USV^{T}p & = & f\\
 S\underbrace{V^{T }p}_{z} & = & \underbrace{U^{T}f}_{d}
-\end{eqnarray}
-The matrix $S$ is diagonal and contains the singular values. We decide to keep the $r$ first singular values and set the other ones to zero. This correspond to looking for a least square solution in a subspace of $Col(A)$ but this reduces the sensitivity of the problem to data perturbations.
+\end{eqnarray*}
+The matrix $S$ is diagonal and contains the singular values. We decide to keep the $r$ first (largest) singular values and set the other ones to zero. This correspond to looking for a least square solution in a subspace of $Col(A)$ but this reduces the sensitivity of the problem to data perturbations.
 
 
-We set $z_{i}= d_{i}/s_{i}$ for $i = 1:r$. The other $z_{i}=0$ for $i = r+1,\dots,N$ give the minimum norm solution. Finally we recover the solution $p=Vz$ because we set $z=V^{T}p$ in the beginning.
+We set $z_{i}= d_{i}/s_{i}$ for $i = 1:r$. The other $z_{i}=0$ for $i = r+1,\dots,n$ give the minimum norm solution. Finally we recover the solution $p=Vz$ because we set $z=V^{T}p$ in the beginning.
 
 \paragraph*{}
 We look at the results we get without adding any noise to the data $f$. The codes are available at the end of the report. Here starts the game of finding the value of $r$ that works best. We must use enough information but not too much because the sensitivity of the system might cause problems. We first look at figure~\ref{fig:nn0} where we tried the values $r= \begin{bmatrix}

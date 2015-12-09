@@ -17,7 +17,7 @@ The Matlab code $svdPert.m$ (available at the end of the report) contains the co
 \end{center}
 \end{figure}
 
-Figure \ref{perturb} shows the solution computed with the same values of $r$ as for the problem without any perturbation. Comparing to figure \ref{fig:nn1}, we can see that for the lower values of $r$ ($r=1$ or $r=10$), the approximation is quite similar. 
+Figure \ref{perturb} shows the solution computed with the same values of $r$ as for the problem without any perturbation. Comparing to figure \ref{fig:nn0}, we can see that for the lower values of $r$ ($r=1$ or $r=10$), the approximation is quite similar. 
 
 On the other hand, for $r=20$ and $r=30$, adding perturbations greatly affect the quality of the solution. This is because the problem is ill-posed and thus small variations on the vector $f$ will greatly influence the solution.
 
@@ -26,7 +26,7 @@ Because of the perturbations, we feel, after looking at graphs for different ran
 \begin{figure}
 \begin{center}
 \includegraphics[scale=0.7]{rank7.eps}
-\caption{Approximation for $r=7$}
+\caption{Approximation for $r=7$ with noise}
 \label{rank7}
 \end{center}
 \end{figure} 
