@@ -1,3 +1,28 @@
 This section focuses on solving the underdetermined system derived in the previous section. To do this, SVD factorization will be used. 
 
-We know that our system is composed by 36 equations for 59 unknowns. It is thus indeed underdetermined.
+We know that our system is composed by 36 equations for 59 unknowns. It is thus indeed underdetermined. 
+
+Let us recap the strategy used to solve the system. We start with $$Ap=f.$$
+We get the decomposition $$A = USV^{T}.$$
+This yields
+\begin{eqnarray}
+USV^{T}p & = & f\\
+S\underbrace{V^{T }p}_{z} & = & \underbrace{U^{T}f}_{d}\\
+\end{eqnarray}
+$S$ is diagonal with the singular values. We decide to keep the $r$ first singular values and set the other ones to zero. This correspond to looking for a least square solution in a subspace of $Col(A)$ but reduces the sensitivity of the problem to data perturbations.
+
+
+We set $z_{i}= d_{i}/s_{i}$ for $i = 1:r$. The other $z_{i}=0$ for $i = r+1,\dots,N$ give the minimum norm solution. Finally we recover the solution $p=Vz$ because we set $z=V^{T}p$ in the beginning.
+
+\paragraph*{}
+We look at the results we get without adding any noise to the data $f$.
+
+\red{figures to come hooooooo}
+
+
+
+
+
+
+
+
