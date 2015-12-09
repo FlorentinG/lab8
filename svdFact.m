@@ -1,4 +1,4 @@
-function [p,x] = svdFact(beta,r)
+function [p,x] = svdFact(beta,r,perturb)
 %SVDFACT 
 
 N = 60;
@@ -17,12 +17,12 @@ A = h*A;
 
 %SVD Decomposition
 [U,S,V] = svd(A);
-F = data(beta,y);
+F = data(beta,y)+perturb;
 d = U'*F;
 s = diag(S);
 z = [d(1:r)./s(1:r) ; zeros(59-r,1)];
 
-p = V*z;plot(x,p);
+p = V*z;
 end
 
 function F = data(beta,y)
