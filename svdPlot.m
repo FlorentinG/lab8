@@ -19,6 +19,7 @@ for i = 1:length(r)
 subplot(2,2,i);
 plot(x,P(:,i),x,(0.8*cos(pi*x/6)-0.4*cos(pi*x/2)+1),'k--');
 str = sprintf('r = %d', r(i));
+legend('Approximated p', 'Real p');
 title(str);
 end
 

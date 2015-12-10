@@ -20,6 +20,7 @@ for i = 1:length(r)
 subplot(2,2,i)
 plot(x,P(:,i),x,(0.8*cos(pi*x/6)-0.4*cos(pi*x/2)+1),'k--');
 str = sprintf('r = %d', r(i));
+legend('Approximated p', 'Real p');
 title(str);
 end
 
@@ -27,6 +28,7 @@ end
 [p,x] = svdFact(beta,7,perturb);
 figure;
 plot(x,p,x,(0.8*cos(pi*x/6)-0.4*cos(pi*x/2)+1),'k--');
+legend('Approximated p', 'Real p');
 str = sprintf('Approximation for r=%d',7);title(str);
 
 

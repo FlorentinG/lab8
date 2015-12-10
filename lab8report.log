@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.11.17)  9 DEC 2015 21:41
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.11.17)  10 DEC 2015 12:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1304,11 +1304,11 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]) (./svd.tex
 Package epstopdf Info: Source file: <./nn0.eps>
-(epstopdf)                    date: 2015-12-09 18:45:33
-(epstopdf)                    size: 37081 bytes
+(epstopdf)                    date: 2015-12-10 12:42:16
+(epstopdf)                    size: 39557 bytes
 (epstopdf)             Output file: <./nn0-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-12-09 18:47:04
-(epstopdf)                    size: 9726 bytes
+(epstopdf)                    date: 2015-12-10 12:43:32
+(epstopdf)                    size: 11156 bytes
 (epstopdf)             Command: <repstopdf --outfile=./nn0-eps-converted-to.pdf
  ./nn0.eps>
 (epstopdf)             \includegraphics on input line 22.
@@ -1328,17 +1328,18 @@ Overfull \hbox (38.36653pt too wide) in paragraph at lines 22--23
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+[2]
 Package epstopdf Info: Source file: <./nn2.eps>
-(epstopdf)                    date: 2015-12-09 18:51:56
-(epstopdf)                    size: 36547 bytes
+(epstopdf)                    date: 2015-12-10 12:43:16
+(epstopdf)                    size: 39023 bytes
 (epstopdf)             Output file: <./nn2-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-12-09 18:53:16
-(epstopdf)                    size: 9783 bytes
+(epstopdf)                    date: 2015-12-10 12:43:33
+(epstopdf)                    size: 11204 bytes
 (epstopdf)             Command: <repstopdf --outfile=./nn2-eps-converted-to.pdf
  ./nn2.eps>
 (epstopdf)             \includegraphics on input line 38.
 Package epstopdf Info: Output file is already uptodate.
-<./nn2-eps-converted-to.pdf, id=28, 982.67125pt x 518.93875pt>
+ <./nn2-eps-converted-to.pdf, id=36, 982.67125pt x 518.93875pt>
 File: ./nn2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./nn2-eps-converted-to.pdf>
@@ -1349,105 +1350,111 @@ Overfull \hbox (38.36653pt too wide) in paragraph at lines 38--39
  [][] 
  []
 
-[2]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) (./bruit.tex
-Package epstopdf Info: Source file: <perturb.eps>
-(epstopdf)                    date: 2015-12-09 21:22:37
-(epstopdf)                    size: 14209 bytes
-(epstopdf)             Output file: <perturb-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-12-09 21:22:37
-(epstopdf)                    size: 8344 bytes
-(epstopdf)             Command: <repstopdf --outfile=perturb-eps-converted-to.p
-df perturb.eps>
-(epstopdf)             \includegraphics on input line 14.
-Package epstopdf Info: Output file is already uptodate.
- <perturb-eps-converted-to.pdf, id=37, 562.1pt x 421.575pt>
-File: perturb-eps-converted-to.pdf Graphic file (type pdf)
-
-<use perturb-eps-converted-to.pdf>
-Package pdftex.def Info: perturb-eps-converted-to.pdf used on input line 14.
-(pdftex.def)             Requested size: 337.2626pt x 252.94695pt.
-Package epstopdf Info: Source file: <rank7.eps>
-(epstopdf)                    date: 2015-12-09 21:22:37
-(epstopdf)                    size: 9290 bytes
-(epstopdf)             Output file: <rank7-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-12-09 21:22:37
-(epstopdf)                    size: 6853 bytes
-(epstopdf)             Command: <repstopdf --outfile=rank7-eps-converted-to.pdf
- rank7.eps>
-(epstopdf)             \includegraphics on input line 28.
-Package epstopdf Info: Output file is already uptodate.
-
-<rank7-eps-converted-to.pdf, id=41, 562.1pt x 421.575pt>
-File: rank7-eps-converted-to.pdf Graphic file (type pdf)
-
-<use rank7-eps-converted-to.pdf>
-Package pdftex.def Info: rank7-eps-converted-to.pdf used on input line 28.
-(pdftex.def)             Requested size: 393.46732pt x 295.10048pt.
 ) [3pdfTeX warning (ext4): destination with the same identifier (name{figure.1}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.112 \FloatBarrier
-                    <./nn0-eps-converted-to.pdf>] [4pdfTeX warning (ext4): dest
-ination with the same identifier (name{figure.2}) has been already used, duplic
+l.110 \FloatBarrier
+                    <./nn0-eps-converted-to.pdf>] (./bruit.tex
+Package epstopdf Info: Source file: <perturb.eps>
+(epstopdf)                    date: 2015-12-10 12:41:12
+(epstopdf)                    size: 40025 bytes
+(epstopdf)             Output file: <perturb-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-12-10 12:43:34
+(epstopdf)                    size: 11460 bytes
+(epstopdf)             Command: <repstopdf --outfile=perturb-eps-converted-to.p
+df perturb.eps>
+(epstopdf)             \includegraphics on input line 14.
+Package epstopdf Info: Output file is already uptodate.
+
+<perturb-eps-converted-to.pdf, id=50, 982.67125pt x 518.93875pt>
+File: perturb-eps-converted-to.pdf Graphic file (type pdf)
+
+<use perturb-eps-converted-to.pdf>
+Package pdftex.def Info: perturb-eps-converted-to.pdf used on input line 14.
+(pdftex.def)             Requested size: 491.33443pt x 259.46873pt.
+
+Overfull \hbox (38.36653pt too wide) in paragraph at lines 14--15
+ [] 
+ []
+
+Package epstopdf Info: Source file: <rank7.eps>
+(epstopdf)                    date: 2015-12-10 12:41:23
+(epstopdf)                    size: 18753 bytes
+(epstopdf)             Output file: <rank7-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-12-10 12:43:37
+(epstopdf)                    size: 8875 bytes
+(epstopdf)             Command: <repstopdf --outfile=rank7-eps-converted-to.pdf
+ rank7.eps>
+(epstopdf)             \includegraphics on input line 28.
+Package epstopdf Info: Output file is already uptodate.
+<rank7-eps-converted-to.pdf, id=54, 982.67125pt x 518.93875pt>
+File: rank7-eps-converted-to.pdf Graphic file (type pdf)
+
+<use rank7-eps-converted-to.pdf>
+Package pdftex.def Info: rank7-eps-converted-to.pdf used on input line 28.
+(pdftex.def)             Requested size: 491.33443pt x 259.46873pt.
+
+Overfull \hbox (38.36653pt too wide) in paragraph at lines 28--29
+ [] 
+ []
+
+) [4pdfTeX warning (ext4): destination with the same identifier (name{figure.2}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.113 \FloatBarrier
+                    <./nn2-eps-converted-to.pdf>] [5pdfTeX warning (ext4): dest
+ination with the same identifier (name{figure.3}) has been already used, duplic
 ate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.112 \FloatBarrier
+l.113 \FloatBarrier
                    pdfTeX warning (ext4): destination with the same identifier 
-(name{figure.3}) has been already used, duplicate ignored
+(name{figure.4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.112 \FloatBarrier
-                    <./nn2-eps-converted-to.pdf> <./perturb-eps-converted-to.pd
-f>] [5pdfTeX warning (ext4): destination with the same identifier (name{figure.
-4}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.112 \FloatBarrier
-                    <./rank7-eps-converted-to.pdf>]
+l.113 \FloatBarrier
+                    <./perturb-eps-converted-to.pdf> <./rank7-eps-converted-to.
+pdf>]
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 114.
+nput line 115.
  (./svdFact.m
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 1.
 LaTeX Font Info:    Try loading font information for T1+lmtt on input line 1.
-
-(/usr/share/texmf/tex/latex/lm/t1lmtt.fd
+ (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Try loading font information for TS1+lmr on input line 13.
 
 (/usr/share/texmf/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)) (./svdPlot.m [6
-
-]) (./svdPert.m)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 118.
+)) (./svdPlot.m [6]) (./svdPert.m)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 119.
 
 [7]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 118.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 119.
  (./lab8report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 118.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 118.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 119.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 119.
 Package rerunfilecheck Info: File `lab8report.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 118.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 119.
  ) 
 Here is how much of TeX's memory you used:
- 20848 strings out of 493304
- 342925 string characters out of 6139870
+ 20849 strings out of 493304
+ 342944 string characters out of 6139870
  674644 words of memory out of 5000000
- 23675 multiletter control sequences out of 15000+600000
- 50201 words of font info for 56 fonts, out of 8000000 for 9000
+ 23674 multiletter control sequences out of 15000+600000
+ 47206 words of font info for 55 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  56i,13n,72p,479b,1831s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texmf/fonts/enc/d
@@ -1461,10 +1468,10 @@ onts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10
 public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/shar
 e/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/l
 m/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt8.pfb>
-Output written on lab8report.pdf (7 pages, 233681 bytes).
+Output written on lab8report.pdf (7 pages, 240928 bytes).
 PDF statistics:
- 289 PDF objects out of 1000 (max. 8388607)
- 256 compressed objects within 3 object streams
- 134 named destinations out of 1000 (max. 500000)
+ 297 PDF objects out of 1000 (max. 8388607)
+ 262 compressed objects within 3 object streams
+ 137 named destinations out of 1000 (max. 500000)
  33 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -12,7 +12,7 @@ The matrix $S$ is diagonal and contains the singular values. We decide to keep t
 
 We set $z_{i}= d_{i}/s_{i}$ for $i = 1:r$. The other $z_{i}=0$ for $i = r+1,\dots,n$ give the minimum norm solution. Finally we recover the solution $p=Vz$ because we set $z=V^{T}p$ in the beginning.
 
-\paragraph*{}
+\subsection*{Without perturbation on the data}
 We look at the results we get without adding any noise to the data $f$. The codes are available at the end of the report. Here starts the game of finding the value of $r$ that works best. We must use enough information but not too much because the sensitivity of the system might cause problems. We first look at figure~\ref{fig:nn0} where we tried the values $r= \begin{bmatrix}
 1 & 10 & 20 & 30 
 \end{bmatrix}$
